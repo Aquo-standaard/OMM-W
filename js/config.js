@@ -2,13 +2,13 @@ let respecConfig = {
   //useLogo: true,
   //useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Informatiemodel Water (IMWA) Kunstwerken",
+  title: "Nederlands profiel voor Observaties, Metingen en Monsters",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus:   "WV",               // Werkversie
+  specStatus:   "WV",               // Werkversie
   //labelColor: "#ffcc00",
   // specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
-  specStatus: "def",              // Vastgestelde versie
+  //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                 // Norm
@@ -22,22 +22,22 @@ let respecConfig = {
   //specType: "BP",                 // Best Practice
 
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
-  pubDomain: "IMWA-Kunstwerken",
+  pubDomain: "OMM-Waterprofiel",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
   license: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "IMWA-KW",
+  shortName: "OMM-W",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2025-03-17",
+  publishDate: "2025-06-26",
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   //publishVersion: "0.0.2",
   //previousVersion: "0.0.1",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2024-04-08",
-  previousMaturity: "vv",
+  previousPublishDate: "",
+  previousMaturity: "",
   
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/Aquo-standaard/IMWA-KW",
