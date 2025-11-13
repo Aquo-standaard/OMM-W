@@ -93,4 +93,17 @@ let respecConfig = {
       publisher: "Nederlandse Norm (NEN)",
     },
   },
+
+  // Voor het schalen van plaatjes:
+  postProcess: [
+    function() {
+      // Injecteer CSS voor responsive images
+      const style = document.createElement('style');
+      style.textContent = `
+        img { max-width: 100%; height: auto; }
+        figure img { max-width: 100%; height: auto; }
+      `;
+      document.head.appendChild(style);
+    }
+  ]
 };
