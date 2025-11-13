@@ -49,7 +49,7 @@ let respecConfig = {
 
   //-- Optionele parameters:
   emailComments: "servicedesk@ihw.nl",         // reactie mailadres, alleen bij CV!
-  subtitle: "Versie: 2024.1.0",                         // Subtitel van het document
+  subtitle: "Versie: 2024.0.0",                         // Subtitel van het document
   //maxTocLevel: 4,                           // Aantal niveau's ToC, default is 0
   //nl_organisationName: "IHW",
   //sotdText: "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.",
