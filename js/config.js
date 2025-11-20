@@ -2,7 +2,7 @@ let respecConfig = {
   //useLogo: true,
   //useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Nederlands profiel voor Observaties, Metingen en Monsters",
+  title: "Nederlands profiel Observaties, Metingen en Monsters voor de Watersector",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus:   "WV",               // Werkversie
   //labelColor: "#ffcc00",
