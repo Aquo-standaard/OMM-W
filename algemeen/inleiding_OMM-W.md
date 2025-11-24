@@ -6,10 +6,10 @@ Voor het uitwisselen van meetgegevens in het domein van water(beheer) en bodem w
 
 Binnen OMM-W wordt onderscheidt gemaakt in een aantal onderdelen om een goed overzicht te houden. In werkelijkheid is OMM-W één informatiemodel. De verschillende onderdelen zijn:
 
-•	Observaties (op basis van OMS);
-•	Bemonstering (op basis van OMS);
-•	Monitoringprogramma (uitbreiding); 
-•	Toetsen & beoordelen (uitbreiding).
+-	Observaties (op basis van OMS);
+-	Bemonstering (op basis van OMS);
+- Monitoringprogramma (uitbreiding); 
+- Toetsen & beoordelen (uitbreiding).
 
 Het onderdeel voor observaties gaat over observaties, zoals zintuigelijke waarnemingen en metingen die worden gedaan door of in opdracht van waterbeheerders. Een observatie is een activiteit uitgevoerd door een observator om de waarde te bepalen van een observeerbare eigenschap van een (interesse)object volgens een bepaalde observatiemethode. Afhankelijk van het type observatie kunn met het model verschillende vormen van resultaten worden uitgewisseld, zoals een numerieke waarde met een bijbehorende eenheid (Measure), een beschrijving (tekst) of een tijdreeks (reeks van observaties variërend in de tijd). 
 
