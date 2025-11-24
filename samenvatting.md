@@ -1,1 +1,1 @@
-Dit document geeft een beschrijving van het domein Watersysteem binnen het Informatiemodel Water (IMWA). 
+Dit document geeft een beschrijving van het domein OMM-W binnen het Informatiemodel Water (IMWA). 
