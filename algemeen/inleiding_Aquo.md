@@ -11,17 +11,15 @@ Het Informatiehuis Water ontzorgt waterbeheerders en beleidsmakers bij het uitwi
 
 ## Het Informatiemodel Water (IMWA)
 
-Een catalogus zoals deze bevat gebundelde informatie over een informatiemodel.  
-In de Aquo-informatiemodellen is vastgelegd welke relaties er bestaan tussen gegevens die te maken hebben met waterbeheer.  
-Informatiemodellen zijn nuttig omdat ze ervoor zorgen dat (een eenduidige) betekenis aan data kan worden gegeven.
+De basis van de Aquo-standaard (Aquo) wordt gevormd door het informatiemodel Water (IMWA). IMWA biedt de basis voor de informatiestructuur die binnen de gegevensuitwisseling wordt gebruikt. Dit betekent dat binnen IMWA de relevante objecten, onderlinge relaties tussen objecten en eigenschappen over objecten die worden gebruikt binnen het waterbeheer beschrijft.
 
-Een Aquo-informatiemodel kan bovendien worden gebruikt om te bepalen welke gegevens in een database aanwezig moeten zijn om de data volgens de standaard te kunnen uitwisselen. Dit maakt het mogelijk om eenmaal ingewonnen data meervoudig te gebruiken.  
-Aquo-informatiemodellen worden ook gebruikt voor het ontwikkelen van import- en exportbestanden of interfaces.
+IMWA is een omvangrijk informatiemodel en is daarom voor de overzichtelijkheid onderverdeeld in een aantal onderdelen domeimen die ieder een taak van de waterbeheerder representeren of daar een belangrijke rol in spelen. Dit zijn: watersysteem, waterveieligheid, waterketen (nog niet beschikbaar).
 
-Een catalogus is de gegevensdefinitie van elementen waarover informatie kan worden uitgewisseld en de relaties tussen die elementen.
+Naast de drie taken van de waterbeheerder, zijn er binnen IMWA nog een aantal andere onderdelen gemodelleerd die gebruikt worden ter ondersteuning van de drie genoemde taken. Dit zijn: IMWA Kunsterken, OMM-W (in ontwikkeling) voor metingen, observaties, monitoring, toetsen & beoordelen, IMWA Normen (in Ontwikkeling) en IMWA Maatregelen (in ontwikkeling).
 
-Een Aquo-informatiemodel kan bovendien worden gebruikt om te bepalen welke gegevens in een database aanwezig moeten zijn om de data volgens de standaard te kunnen uitwisselen. Dit maakt het mogelijk om eenmaal ingewonnen data meervoudig te gebruiken.  
-Aquo-informatiemodellen worden ook gebruikt voor het ontwikkelen van import- en exportbestanden of interfaces.
+Ieder van deze genoemde onderdelen heeft een connectie met IMWA Basis. IMWA Basis is de fundering voor IMWA waar alles samenkomt.
+
+In de onderstaande afbeelding is een (voorlopige) weergave te zien van IMWA en de samenhang tussen de verschillende onderdelen binnen IMWA. Let op! Dit is nog niet de definitieve versie van IMWA en is onderheven aan veranderingen die tot stand komen door de verdere doorontwikkeling van IMWA.
 
 ## MIM-conform
 
