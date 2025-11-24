@@ -1,4 +1,4 @@
-# Inleiding AQUO
+# De Aquo-standaard
 
 De Aquo-standaard (Aquo) is de Nederlandse standaard voor het uitwisselen van gegevens binnen de watersector.  
 Informatie is een belangrijke motor voor het functioneren van de watersector. Steeds meer en verschillende overheidslagen en instanties werken samen en wisselen informatie uit. Daarom is het belangrijk dat we allemaal dezelfde betekenis geven aan de gegevens en woorden die we gebruiken. En dat we gemeenschappelijke afspraken maken over hoe we gegevens beschrijven en de manier waarop we ze uitwisselen.
@@ -9,7 +9,7 @@ De Aquo-standaard draagt daarmee bij aan de kwaliteit van het waterbeheer. Het e
 Aquo is voor overheidsorganisaties een verplichte open standaard, die is ontwikkeld en wordt beheerd door het Informatiehuis Water. Het Informatiehuis Water is een samenwerkingsprogramma van Rijkswaterstaat, de waterschappen en de provincies.  
 Het Informatiehuis Water ontzorgt waterbeheerders en beleidsmakers bij het uitwisselen van waterinformatie.
 
-## Informatiemodellen
+## Het Informatiemodel Water (IMWA)
 
 Een catalogus zoals deze bevat gebundelde informatie over een informatiemodel.  
 In de Aquo-informatiemodellen is vastgelegd welke relaties er bestaan tussen gegevens die te maken hebben met waterbeheer.  
