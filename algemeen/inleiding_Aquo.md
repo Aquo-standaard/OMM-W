@@ -23,17 +23,13 @@ Een catalogus is de gegevensdefinitie van elementen waarover informatie kan word
 Een Aquo-informatiemodel kan bovendien worden gebruikt om te bepalen welke gegevens in een database aanwezig moeten zijn om de data volgens de standaard te kunnen uitwisselen. Dit maakt het mogelijk om eenmaal ingewonnen data meervoudig te gebruiken.  
 Aquo-informatiemodellen worden ook gebruikt voor het ontwikkelen van import- en exportbestanden of interfaces.
 
-### Hoe werkt het?
+## MIM-conform
 
-In de Aquo-standaard zijn informatiemodellen opgenomen voor verschillende soorten gegevensuitwisseling en die zijn per werkveld of domein gerangschikt. Daarnaast is een gelaagdheid aangebracht:
+De Aquo-informatiemodellen zijn opgezet volgens het **MIM - Metamodel Informatie Modellering** ([geostandaarden.nl](https://docs.geostandaarden.nl/mim/mim/)). MIM biedt een gemeenschappelijk vertrekpunt voor het maken van informatiemodellen. De afspraken reiken over de grenzen van bestuurslagen heen en zijn toepasbaar in uiteenlopende domeinen. Het volgen van MIM zorgt er ook voor dat er een gelaagdheid is aangebracht in de informatiemodellen
 
 - **Conceptueel model**: Hierin zijn alle toepassingen aangegeven waarvoor op dit moment Aquo-informatiemodellen beschikbaar zijn.
 - **Logisch model**: Dit is een selectie uit het semantische model, die specifiek is voor een bepaald werkveld of uitwisseldoel.
 - **Fysiek model**: Hiermee kunnen programmeurs aan de slag ten behoeve van een geautomatiseerde (computer naar computer) gegevensuitwisseling.
-
-## MIM-conform
-
-De Aquo-informatiemodellen zijn opgezet volgens het **MIM - Metamodel Informatie Modellering** ([geostandaarden.nl](https://docs.geostandaarden.nl/mim/mim/)). MIM biedt een gemeenschappelijk vertrekpunt voor het maken van informatiemodellen. De afspraken reiken over de grenzen van bestuurslagen heen en zijn toepasbaar in uiteenlopende domeinen.
 
 Zie voor verdere toelichting:  
 [Metamodel Informatie Modellering](https://docs.geostandaarden.nl/mim/mim/)
