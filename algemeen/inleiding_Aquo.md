@@ -14,13 +14,13 @@ Het Informatiehuis Water ontzorgt waterbeheerders en beleidsmakers bij het uitwi
 Het Informatiemodel Water (IMWA) vormt de basis van de Aquo-standaard. IMWA is voornamelijk een informatiemodel voor geo-informatie en is dan ook gebasseerd op de NEN3610:2022 Basismodel geo-informatie. IMWA biedt de basis voor de informatiestructuur die binnen de gegevensuitwisseling wordt gebruikt. Om dit te kunnen doen beschrijft IMWA de concepten waarover informatie uitgewisseld moet worden binnen het waterbeheer, onderlinge relaties tussen deze concepten en eigenschappen over deze concepten.
 
 IMWA is een omvangrijk informatiemodel. Om overzicht te houden wordt het onderverdeeld in 3 taakgebieden:
-- IMWA Watersysteem [Catlogus IMWA Watersysteem](https://aquo-standaard.github.io/IMWA-WS/#inleiding)
+- [IMWA Watersysteem](https://aquo-standaard.github.io/IMWA-WS/#inleiding)
 - IMWA Waterketen (nog te ontwikkelen)
 - IMWA Waterveiligheid
 
 Daarnaast zijn of worden een aantal onderdelen gemodelleerd ter ondersteuning van die taakgebieden:
-- IMWA Kunstwerken [Catlogus IMWA Kunstwerken](https://aquo-standaard.github.io/IMWA-KW/)
-- Nederlands profiel Observaties, Metingen, Monsters voor de watersector [Catalogus OMM-W](https://aquo-standaard.github.io/OMM-W/)
+- [IMWA Kunstwerken](https://aquo-standaard.github.io/IMWA-KW/)
+- [Nederlands profiel Observaties, Metingen, Monsters voor de watersector](https://aquo-standaard.github.io/OMM-W/)
 - IMWA Normen
 - IMWA Maatregelen
 
