@@ -20,7 +20,7 @@ IMWA is een omvangrijk informatiemodel. Om overzicht te houden wordt het onderve
 
 Daarnaast zijn of worden een aantal onderdelen gemodelleerd ter ondersteuning van die taakgebieden:
 - [IMWA Kunstwerken](https://aquo-standaard.github.io/IMWA-KW/)
-- [Nederlands profiel Observaties, Metingen, Monsters voor de watersector](https://aquo-standaard.github.io/OMM-W/)
+- [Nederlands profiel Observaties, Metingen en Monsters voor de watersector](https://aquo-standaard.github.io/OMM-W/)
 - IMWA Normen
 - IMWA Maatregelen
 
