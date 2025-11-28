@@ -29,7 +29,7 @@ Elk onderdeel heeft een connectie met het IMWA Basis.  IMWA Basis vormt de funde
 
 In de onderstaande afbeelding is een (voorlopige) weergave te zien van IMWA en de samenhang tussen de verschillende onderdelen binnen IMWA.
 
-![De context van IMWA](./algemeen/Aquomodellenoverzicht.jpg)
+![De context van IMWA](./algemeen/Aquomodellenoverzicht1.jpg)
 *Totaalplaat van IMWA in samenhang*
 
 ## MIM-conform
