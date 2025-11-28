@@ -27,7 +27,7 @@ Daarnaast zijn of worden een aantal onderdelen gemodelleerd ter ondersteuning va
 Elk onderdeel heeft een connectie met het IMWA Basis.  IMWA Basis vormt de fundering van het IMWA. In onderstaande afbeelding zie je de samenhang tussen de verschillende onderdelen. [Catalogus IMWA Basis](https://aquo-standaard.github.io/IMWA-basis/#cat)
 **Let op!** Dit is nog niet de definitieve versie van IMWA. De doorontwikkeling van het IMWA kan nog tot veranderingen leiden.
 
-In de onderstaande afbeelding is een (voorlopige) weergave te zien van IMWA en de samenhang tussen de verschillende onderdelen binnen IMWA. Let op! Dit is nog niet de definitieve versie van IMWA en is onderheven aan veranderingen die tot stand komen door de verdere doorontwikkeling van IMWA.
+In de onderstaande afbeelding is een (voorlopige) weergave te zien van IMWA en de samenhang tussen de verschillende onderdelen binnen IMWA.
 
 ![De context van IMWA](./algemeen/Aquomodellenoverzicht.jpg)
 *Totaalplaat van IMWA in samenhang*
