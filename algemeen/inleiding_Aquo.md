@@ -11,28 +11,34 @@ Het Informatiehuis Water ontzorgt waterbeheerders en beleidsmakers bij het uitwi
 
 ## Het Informatiemodel Water (IMWA)
 
-De basis van de Aquo-standaard (Aquo) wordt gevormd door het informatiemodel Water (IMWA). IMWA biedt de basis voor de informatiestructuur die binnen de gegevensuitwisseling wordt gebruikt. Dit betekent dat binnen IMWA de relevante objecten, onderlinge relaties tussen objecten en eigenschappen over objecten die worden gebruikt binnen het waterbeheer beschrijft.
+Het Informatiemodel Water (IMWA) vormt de basis van de Aquo-standaard. IMWA is voornamelijk een informatiemodel voor geo-informatie en is dan ook gebasseerd op de NEN3610:2022 Basismodel geo-informatie. IMWA biedt de basis voor de informatiestructuur die binnen de gegevensuitwisseling wordt gebruikt. Om dit te kunnen doen beschrijft IMWA de concepten waarover informatie uitgewisseld moet worden binnen het waterbeheer, onderlinge relaties tussen deze concepten en eigenschappen over deze concepten.
 
-IMWA is een omvangrijk informatiemodel en is daarom voor de overzichtelijkheid onderverdeeld in een aantal onderdelen domeimen die ieder een taak van de waterbeheerder representeren of daar een belangrijke rol in spelen. Dit zijn: watersysteem, waterveieligheid, waterketen (nog niet beschikbaar).
+IMWA is een omvangrijk informatiemodel. Om overzicht te houden wordt het onderverdeeld in 3 taakgebieden:
+- IMWA Watersysteem [Catlogus IMWA Watersysteem](https://aquo-standaard.github.io/IMWA-WS/#inleiding)
+- IMWA Waterketen (nog te ontwikkelen)
+- IMWA Waterveiligheid
 
-Naast de drie taken van de waterbeheerder, zijn er binnen IMWA nog een aantal andere onderdelen gemodelleerd die gebruikt worden ter ondersteuning van de drie genoemde taken. Dit zijn: IMWA Kunsterken, OMM-W (in ontwikkeling) voor metingen, observaties, monitoring, toetsen & beoordelen, IMWA Normen (in Ontwikkeling) en IMWA Maatregelen (in ontwikkeling).
+Daarnaast zijn of worden een aantal onderdelen gemodelleerd ter ondersteuning van die taakgebieden:
+- IMWA Kunstwerken [Catlogus IMWA Kunstwerken](https://aquo-standaard.github.io/IMWA-KW/)
+- Nederlands profiel Observaties, Metingen, Monsters voor de watersector [Catalogus OMM-W](https://aquo-standaard.github.io/OMM-W/)
+- IMWA Normen
+- IMWA Maatregelen
 
-Ieder van deze genoemde onderdelen heeft een connectie met IMWA Basis. IMWA Basis is de fundering voor IMWA waar alles samenkomt.
+Elk onderdeel heeft een connectie met het IMWA Basis.  IMWA Basis vormt de fundering van het IMWA. In onderstaande afbeelding zie je de samenhang tussen de verschillende onderdelen. [Catalogus IMWA Basis](https://aquo-standaard.github.io/IMWA-basis/#cat)
+**Let op!** Dit is nog niet de definitieve versie van IMWA. De doorontwikkeling van het IMWA kan nog tot veranderingen leiden.
 
 In de onderstaande afbeelding is een (voorlopige) weergave te zien van IMWA en de samenhang tussen de verschillende onderdelen binnen IMWA. Let op! Dit is nog niet de definitieve versie van IMWA en is onderheven aan veranderingen die tot stand komen door de verdere doorontwikkeling van IMWA.
 
-![De context van IMWA](./algemeen/Bedrijfsobjecten%20model.jpg)
+![De context van IMWA](./algemeen/Aquomodellenoverzicht.jpg)
 *Totaalplaat van IMWA in samenhang*
-
-Zie voor verdere toelichting van de samenhang tussen de verschillende domeinen in de IMWA bij IMWA Basis: [Catalogus IMWA Basis](https://aquo-standaard.github.io/IMWA-basis/#cat)
 
 ## MIM-conform
 
 De Aquo-informatiemodellen zijn opgezet volgens het **MIM - Metamodel Informatie Modellering** ([geostandaarden.nl](https://docs.geostandaarden.nl/mim/mim/)). MIM biedt een gemeenschappelijk vertrekpunt voor het maken van informatiemodellen. De afspraken reiken over de grenzen van bestuurslagen heen en zijn toepasbaar in uiteenlopende domeinen. Het volgen van MIM zorgt er ook voor dat er een gelaagdheid is aangebracht in de informatiemodellen
 
-- **Conceptueel model**: Hierin zijn alle toepassingen aangegeven waarvoor op dit moment Aquo-informatiemodellen beschikbaar zijn.
-- **Logisch model**: Dit is een selectie uit het semantische model, die specifiek is voor een bepaald werkveld of uitwisseldoel.
-- **Fysiek model**: Hiermee kunnen programmeurs aan de slag ten behoeve van een geautomatiseerde (computer naar computer) gegevensuitwisseling.
+- **Conceptueel model**: Hierin wordt de informatie beschreven die van belang is binnen een bepaald werkveld. Het definieert het 'wat': welke concepten worden onderscheiden in een bepaald werkveld, wat betekenen deze, hoe verhouden deze zich tot elkaar en welke informatie over deze concepten belangrijk is. 
+- **Logisch model**: Dit is een afleiding van het conceptuele model, die is gemaakt voor een specifieke toepassing. Het defineert het 'hoe': binnen een logisch model wordt beschreven hoe de concepten die binnen het conceptueel model gedefineerd zijn, worden gebruikt binnen systemen en tussen systemen, bijvoorbeeld voor databases en in de uitwisseling daartussen. Het logisch model beschrijft niet de technische implementatie van het model in systemen, maar is een eerst aanzet daartoe.
+- **Fysiek model**: Hierin worden de structuur en eigenschappen van een daadwerkelijk technologie beschreven waarin de informatie wordt vastgelegd of uitgewisseld. Hte bschrijft bijvoorbeelde sturctuur van een database of uitwisselbericht.
 
 Zie voor verdere toelichting:  
 [Metamodel Informatie Modellering](https://docs.geostandaarden.nl/mim/mim/)
