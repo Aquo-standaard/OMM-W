@@ -2,7 +2,7 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--CONCEPTUAL-IMWA2024NederlandsprofielObservatiesMetingenenMonstersvoordeWatersector-2024.0.0-1-20250626-20251202-094153 imvertor Nightly-build.0-->
+         <!--CONCEPTUAL-IMWA2024NederlandsprofielObservatiesMetingenenMonstersvoordeWatersector-2024.0.0-1-20250626-20251202-103215 imvertor Nightly-build.0-->
          <section id="global_package_Observatie">
             <h3>Domein   Observatie</h3>
             <div class="imageinfo overview">
@@ -7316,6 +7316,742 @@
             <section>
                <h4>Objecttypen   </h4>
                
+               <section id="global_class_ToetsenEnBeoordelen_Beoordelaar">
+                  <h5>   Beoordelaar</h5>
+                  
+                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="row">Naam</th>
+                           <td>Beoordelaar</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Alias</th>
+                           <td>
+                              
+                              <alias>Evaluator</alias>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst</th>
+                           <td>
+                              
+                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Definitie</th>
+                           <td>
+                              
+                              
+                              <p>een organisatie of persoon die een beoordeling uitvoert</p>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst definitie</th>
+                           <td>
+                              Aquo
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Datum opname</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Unieke aanduiding</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Indicatie abstract object</th>
+                           <td>Nee</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  <h6>Overzicht attributen  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Attribuutnaam</th>
+                           <th scope="col">Definitie</th>
+                           <th scope="col">Attribuuttype</th>
+                           <th scope="col">Kardinaliteit</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              beoordeling­Instantie
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                              </td>
+                           <td>0 .. 1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              beoordeling­Instantie­Referentie
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              beoordelingsinstrument
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="link" href="#global_class_CodelijstenEnDatatypen_Beoordelingsinstrument">Beoordelingsinstrument</a>
+                              </td>
+                           <td>0 .. 1</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  <h6>Overzicht relaties  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Relatienaam met kardinaliteiten</th>
+                           <th scope="col">Definitie</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
+                              
+                              [ 0 .. * ]
+                              
+                              uitgevoerd door: beoordelaar
+                              
+                              Beoordelaar
+                              [ 0 .. 1 ]
+                              </td>
+                           <td></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  </section>
+               
+               <section id="global_class_ToetsenEnBeoordelen_Beoordeling">
+                  <h5>   Beoordeling</h5>
+                  
+                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="row">Naam</th>
+                           <td>Beoordeling</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Alias</th>
+                           <td>
+                              
+                              <alias>Evaluation</alias>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst</th>
+                           <td>
+                              
+                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Definitie</th>
+                           <td>
+                              
+                              
+                              <p>een actie die op een bepaalde manier wordt uitgevoerd door een beoordelaar om een
+                                 toetsingsresultaat te beoordelen</p>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst definitie</th>
+                           <td>
+                              Aquo
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Datum opname</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Unieke aanduiding</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Indicatie abstract object</th>
+                           <td>Nee</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  <h6>Overzicht attributen  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Attribuutnaam</th>
+                           <th scope="col">Definitie</th>
+                           <th scope="col">Attribuuttype</th>
+                           <th scope="col">Kardinaliteit</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              beoordeling­Identificatie
+                              </td>
+                           <td>
+                              
+                              <p>specificeert het ID of de naam van een beoordeling</p>
+                              </td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              beoordelingsperiode
+                              </td>
+                           <td>
+                              
+                              <p>specificeert de periode waarin een beoordeling tot stand is gekomen</p>
+                              </td>
+                           <td>
+                              TM_Period
+                              </td>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              tijdstip­Beoordeling
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              type­Beoordeling
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="link" href="#global_class_CodelijstenEnDatatypen_BeoordelingType">Beoordeling­Type</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  <h6>Overzicht relaties  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Relatienaam met kardinaliteiten</th>
+                           <th scope="col">Definitie</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              Beoordeling
+                              [ 1 .. * ]
+                              
+                              beoordeelt: toetsresultaat
+                              
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Toetsresultaat">Toetsresultaat</a>
+                              
+                              [ 1 .. * ]
+                              </td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Beoordeling
+                              [ 1 .. * ]
+                              
+                              leidt tot: beoordelingsresultaat
+                              
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordelingsresultaat">Beoordelingsresultaat</a>
+                              
+                              [ 1 ]
+                              </td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Beoordeling
+                              [ 0 .. * ]
+                              
+                              uitgevoerd door: beoordelaar
+                              
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordelaar">Beoordelaar</a>
+                              
+                              [ 0 .. 1 ]
+                              </td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Beoordeling
+                              [ 0 .. * ]
+                              
+                              geeft oordeel voor: IMWAGeoobject
+                              
+                              
+                              IMWA_Geo­Object
+                              
+                              [ 0 .. * ]
+                              </td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Beoordeling
+                              [ 0 .. * ]
+                              
+                              uitgevoerd volgens: beoordelingsmethode
+                              
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordelingsmethode">Beoordelingsmethode</a>
+                              
+                              [ 0 .. * ]
+                              </td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Beoordeling
+                              [ 0 .. * ]
+                              
+                              geeft oordeel voor
+                              
+                              
+                              Waterbeheer­Functie
+                              
+                              [ 0 .. 1 ]
+                              </td>
+                           <td></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  </section>
+               
+               <section id="global_class_ToetsenEnBeoordelen_Beoordelingsmethode">
+                  <h5>   Beoordelingsmethode</h5>
+                  
+                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="row">Naam</th>
+                           <td>Beoordelingsmethode</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Alias</th>
+                           <td>
+                              
+                              <alias>Evaluation­Method</alias>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst</th>
+                           <td>
+                              
+                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Definitie</th>
+                           <td>
+                              
+                              
+                              <p>een beschrijving van het proces om een toetsingsresultaat te beoordelen</p>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst definitie</th>
+                           <td>
+                              Aquo
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Datum opname</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Unieke aanduiding</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Indicatie abstract object</th>
+                           <td>Nee</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  <h6>Overzicht attributen  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Attribuutnaam</th>
+                           <th scope="col">Definitie</th>
+                           <th scope="col">Attribuuttype</th>
+                           <th scope="col">Kardinaliteit</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              beoordelingsmethode
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="link" href="#global_class_CodelijstenEnDatatypen_Beoordelingsmethode">Beoordelingsmethode</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              beoordelingsmethode­Referentie
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  <h6>Overzicht relaties  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Relatienaam met kardinaliteiten</th>
+                           <th scope="col">Definitie</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
+                              
+                              [ 0 .. * ]
+                              
+                              uitgevoerd volgens: beoordelingsmethode
+                              
+                              Beoordelingsmethode
+                              [ 0 .. * ]
+                              </td>
+                           <td></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  </section>
+               
+               <section id="global_class_ToetsenEnBeoordelen_Beoordelingsresultaat">
+                  <h5>   Beoordelingsresultaat</h5>
+                  
+                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="row">Naam</th>
+                           <td>Beoordelingsresultaat</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Alias</th>
+                           <td>
+                              
+                              <alias>Evaluation­Result</alias>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst</th>
+                           <td>
+                              
+                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Definitie</th>
+                           <td>
+                              
+                              
+                              <p>de uitkomst van een beoordeling</p>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst definitie</th>
+                           <td>
+                              Aquo
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Datum opname</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Unieke aanduiding</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Indicatie abstract object</th>
+                           <td>Nee</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  <h6>Overzicht attributen  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Attribuutnaam</th>
+                           <th scope="col">Definitie</th>
+                           <th scope="col">Attribuuttype</th>
+                           <th scope="col">Kardinaliteit</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              oordeel
+                              </td>
+                           <td></td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  <h6>Overzicht relaties  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Relatienaam met kardinaliteiten</th>
+                           <th scope="col">Definitie</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
+                              
+                              [ 1 .. * ]
+                              
+                              leidt tot: beoordelingsresultaat
+                              
+                              Beoordelingsresultaat
+                              [ 1 ]
+                              </td>
+                           <td></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  </section>
+               
+               <section id="global_class_ToetsenEnBeoordelen_Toetser">
+                  <h5>   Toetser</h5>
+                  
+                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="row">Naam</th>
+                           <td>Toetser</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Alias</th>
+                           <td>
+                              
+                              <alias>Assessor</alias>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst</th>
+                           <td>
+                              
+                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Definitie</th>
+                           <td>
+                              
+                              
+                              <p>een organisatie of persoon die een toetsing uitvoert</p>
+                              
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Herkomst definitie</th>
+                           <td>
+                              Aquo
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Datum opname</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Unieke aanduiding</th>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Indicatie abstract object</th>
+                           <td>Nee</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  <h6>Overzicht attributen  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <colgroup style="width: 10%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Attribuutnaam</th>
+                           <th scope="col">Definitie</th>
+                           <th scope="col">Attribuuttype</th>
+                           <th scope="col">Kardinaliteit</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              toetsing­Instantie
+                              </td>
+                           <td>
+                              
+                              <p>specificeert de organisatie die een toetsing uitvoert</p>
+                              </td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
+                              </td>
+                           <td>0 .. 1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              toetsing­Instantie­Referentie
+                              </td>
+                           <td>
+                              
+                              <p>geeft een link naar een informatiebron over de toetser</p>
+                              </td>
+                           <td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
+                              </td>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              toetsinstrument
+                              </td>
+                           <td>
+                              
+                              <p>specificeert het toetsinstrument dat gebruikt is om een toetsing uit te voeren</p>
+                              </td>
+                           <td>
+                              <a class="link" href="#global_class_CodelijstenEnDatatypen_Toetsinstrument">Toetsinstrument</a>
+                              </td>
+                           <td>0 .. 1</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  <h6>Overzicht relaties  </h6>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 50%;"></colgroup>
+                     <colgroup style="width: 50%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="col">Relatienaam met kardinaliteiten</th>
+                           <th scope="col">Definitie</th>
+                        </tr>
+                        <tr>
+                           <td>
+                              
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Toetsing">Toetsing</a>
+                              
+                              [ 0 .. * ]
+                              
+                              uitgevoerd door: toetser
+                              
+                              Toetser
+                              [ 0 .. 1 ]
+                              </td>
+                           <td></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+                  
+                  </section>
+               
                <section id="global_class_ToetsenEnBeoordelen_Toetsing">
                   <h5>   Toetsing</h5>
                   
@@ -7536,273 +8272,6 @@
                         meetresultaat) voldoet aan de norm(grens). In feite wordt per normgrens bepaald op
                         het resultaat van een observatie voldoet of niet voldoet.</p>
                      </section>
-                  </section>
-               
-               <section id="global_class_ToetsenEnBeoordelen_Toetser">
-                  <h5>   Toetser</h5>
-                  
-                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="row">Naam</th>
-                           <td>Toetser</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Alias</th>
-                           <td>
-                              
-                              <alias>Assessor</alias>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst</th>
-                           <td>
-                              
-                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Definitie</th>
-                           <td>
-                              
-                              
-                              <p>een organisatie of persoon die een toetsing uitvoert</p>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst definitie</th>
-                           <td>
-                              Aquo
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Datum opname</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Unieke aanduiding</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Indicatie abstract object</th>
-                           <td>Nee</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  <h6>Overzicht attributen  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Attribuutnaam</th>
-                           <th scope="col">Definitie</th>
-                           <th scope="col">Attribuuttype</th>
-                           <th scope="col">Kardinaliteit</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              toetsing­Instantie
-                              </td>
-                           <td>
-                              
-                              <p>specificeert de organisatie die een toetsing uitvoert</p>
-                              </td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
-                              </td>
-                           <td>0 .. 1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              toetsing­Instantie­Referentie
-                              </td>
-                           <td>
-                              
-                              <p>geeft een link naar een informatiebron over de toetser</p>
-                              </td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              toetsinstrument
-                              </td>
-                           <td>
-                              
-                              <p>specificeert het toetsinstrument dat gebruikt is om een toetsing uit te voeren</p>
-                              </td>
-                           <td>
-                              <a class="link" href="#global_class_CodelijstenEnDatatypen_Toetsinstrument">Toetsinstrument</a>
-                              </td>
-                           <td>0 .. 1</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  <h6>Overzicht relaties  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Relatienaam met kardinaliteiten</th>
-                           <th scope="col">Definitie</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Toetsing">Toetsing</a>
-                              
-                              [ 0 .. * ]
-                              
-                              uitgevoerd door: toetser
-                              
-                              Toetser
-                              [ 0 .. 1 ]
-                              </td>
-                           <td></td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  </section>
-               
-               <section id="global_class_ToetsenEnBeoordelen_Beoordelingsmethode">
-                  <h5>   Beoordelingsmethode</h5>
-                  
-                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="row">Naam</th>
-                           <td>Beoordelingsmethode</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Alias</th>
-                           <td>
-                              
-                              <alias>Evaluation­Method</alias>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst</th>
-                           <td>
-                              
-                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Definitie</th>
-                           <td>
-                              
-                              
-                              <p>een beschrijving van het proces om een toetsingsresultaat te beoordelen</p>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst definitie</th>
-                           <td>
-                              Aquo
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Datum opname</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Unieke aanduiding</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Indicatie abstract object</th>
-                           <td>Nee</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  <h6>Overzicht attributen  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Attribuutnaam</th>
-                           <th scope="col">Definitie</th>
-                           <th scope="col">Attribuuttype</th>
-                           <th scope="col">Kardinaliteit</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              beoordelingsmethode
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="link" href="#global_class_CodelijstenEnDatatypen_Beoordelingsmethode">Beoordelingsmethode</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              beoordelingsmethode­Referentie
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  <h6>Overzicht relaties  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Relatienaam met kardinaliteiten</th>
-                           <th scope="col">Definitie</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
-                              
-                              [ 0 .. * ]
-                              
-                              uitgevoerd volgens: beoordelingsmethode
-                              
-                              Beoordelingsmethode
-                              [ 0 .. * ]
-                              </td>
-                           <td></td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
                   </section>
                
                <section id="global_class_ToetsenEnBeoordelen_Toetsingsmethode">
@@ -8082,6 +8551,20 @@
                         <tr>
                            <td>
                               
+                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
+                              
+                              [ 1 .. * ]
+                              
+                              beoordeelt: toetsresultaat
+                              
+                              Toetsresultaat
+                              [ 1 .. * ]
+                              </td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td>
+                              
                               <a class="link" href="#global_class_ToetsenEnBeoordelen_Toetsing">Toetsing</a>
                               
                               [ 1 .. * ]
@@ -8090,489 +8573,6 @@
                               
                               Toetsresultaat
                               [ 1 ]
-                              </td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td>
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
-                              
-                              [ 1 .. * ]
-                              
-                              beoordeelt: toetsresultaat
-                              
-                              Toetsresultaat
-                              [ 1 .. * ]
-                              </td>
-                           <td></td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  </section>
-               
-               <section id="global_class_ToetsenEnBeoordelen_Beoordeling">
-                  <h5>   Beoordeling</h5>
-                  
-                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="row">Naam</th>
-                           <td>Beoordeling</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Alias</th>
-                           <td>
-                              
-                              <alias>Evaluation</alias>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst</th>
-                           <td>
-                              
-                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Definitie</th>
-                           <td>
-                              
-                              
-                              <p>een actie die op een bepaalde manier wordt uitgevoerd door een beoordelaar om een
-                                 toetsingsresultaat te beoordelen</p>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst definitie</th>
-                           <td>
-                              Aquo
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Datum opname</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Unieke aanduiding</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Indicatie abstract object</th>
-                           <td>Nee</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  <h6>Overzicht attributen  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Attribuutnaam</th>
-                           <th scope="col">Definitie</th>
-                           <th scope="col">Attribuuttype</th>
-                           <th scope="col">Kardinaliteit</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              beoordeling­Identificatie
-                              </td>
-                           <td>
-                              
-                              <p>specificeert het ID of de naam van een beoordeling</p>
-                              </td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              beoordelingsperiode
-                              </td>
-                           <td>
-                              
-                              <p>specificeert de periode waarin een beoordeling tot stand is gekomen</p>
-                              </td>
-                           <td>
-                              TM_Period
-                              </td>
-                           <td>1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              tijdstip­Beoordeling
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Date­Time</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              type­Beoordeling
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="link" href="#global_class_CodelijstenEnDatatypen_BeoordelingType">Beoordeling­Type</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  <h6>Overzicht relaties  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Relatienaam met kardinaliteiten</th>
-                           <th scope="col">Definitie</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              Beoordeling
-                              [ 1 .. * ]
-                              
-                              beoordeelt: toetsresultaat
-                              
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Toetsresultaat">Toetsresultaat</a>
-                              
-                              [ 1 .. * ]
-                              </td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td>
-                              Beoordeling
-                              [ 1 .. * ]
-                              
-                              leidt tot: beoordelingsresultaat
-                              
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordelingsresultaat">Beoordelingsresultaat</a>
-                              
-                              [ 1 ]
-                              </td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td>
-                              Beoordeling
-                              [ 0 .. * ]
-                              
-                              uitgevoerd door: beoordelaar
-                              
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordelaar">Beoordelaar</a>
-                              
-                              [ 0 .. 1 ]
-                              </td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td>
-                              Beoordeling
-                              [ 0 .. * ]
-                              
-                              geeft oordeel voor: IMWAGeoobject
-                              
-                              
-                              IMWA_Geo­Object
-                              
-                              [ 0 .. * ]
-                              </td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td>
-                              Beoordeling
-                              [ 0 .. * ]
-                              
-                              uitgevoerd volgens: beoordelingsmethode
-                              
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordelingsmethode">Beoordelingsmethode</a>
-                              
-                              [ 0 .. * ]
-                              </td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <td>
-                              Beoordeling
-                              [ 0 .. * ]
-                              
-                              geeft oordeel voor
-                              
-                              
-                              Waterbeheer­Functie
-                              
-                              [ 0 .. 1 ]
-                              </td>
-                           <td></td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  </section>
-               
-               <section id="global_class_ToetsenEnBeoordelen_Beoordelingsresultaat">
-                  <h5>   Beoordelingsresultaat</h5>
-                  
-                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="row">Naam</th>
-                           <td>Beoordelingsresultaat</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Alias</th>
-                           <td>
-                              
-                              <alias>Evaluation­Result</alias>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst</th>
-                           <td>
-                              
-                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Definitie</th>
-                           <td>
-                              
-                              
-                              <p>de uitkomst van een beoordeling</p>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst definitie</th>
-                           <td>
-                              Aquo
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Datum opname</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Unieke aanduiding</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Indicatie abstract object</th>
-                           <td>Nee</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  <h6>Overzicht attributen  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Attribuutnaam</th>
-                           <th scope="col">Definitie</th>
-                           <th scope="col">Attribuuttype</th>
-                           <th scope="col">Kardinaliteit</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              oordeel
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  <h6>Overzicht relaties  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Relatienaam met kardinaliteiten</th>
-                           <th scope="col">Definitie</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
-                              
-                              [ 1 .. * ]
-                              
-                              leidt tot: beoordelingsresultaat
-                              
-                              Beoordelingsresultaat
-                              [ 1 ]
-                              </td>
-                           <td></td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  </section>
-               
-               <section id="global_class_ToetsenEnBeoordelen_Beoordelaar">
-                  <h5>   Beoordelaar</h5>
-                  
-                  <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="row">Naam</th>
-                           <td>Beoordelaar</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Alias</th>
-                           <td>
-                              
-                              <alias>Evaluator</alias>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst</th>
-                           <td>
-                              
-                              <a href="https://aquo.nl/index.php/Begrip aan te maken" target="_blank">https://aquo.nl/index.php/Begrip aan te maken</a>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Definitie</th>
-                           <td>
-                              
-                              
-                              <p>een organisatie of persoon die een beoordeling uitvoert</p>
-                              
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Herkomst definitie</th>
-                           <td>
-                              Aquo
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Datum opname</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Unieke aanduiding</th>
-                           <td> </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Indicatie abstract object</th>
-                           <td>Nee</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  <h6>Overzicht attributen  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <colgroup style="width: 10%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Attribuutnaam</th>
-                           <th scope="col">Definitie</th>
-                           <th scope="col">Attribuuttype</th>
-                           <th scope="col">Kardinaliteit</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              beoordeling­Instantie
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">Character­String</a>
-                              </td>
-                           <td>0 .. 1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              beoordeling­Instantie­Referentie
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20240408/#primitive-datatypes">URI</a>
-                              </td>
-                           <td>1</td>
-                        </tr>
-                        <tr>
-                           <td>
-                              beoordelingsinstrument
-                              </td>
-                           <td></td>
-                           <td>
-                              <a class="link" href="#global_class_CodelijstenEnDatatypen_Beoordelingsinstrument">Beoordelingsinstrument</a>
-                              </td>
-                           <td>0 .. 1</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  
-                  
-                  <h6>Overzicht relaties  </h6>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 50%;"></colgroup>
-                     <colgroup style="width: 50%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="col">Relatienaam met kardinaliteiten</th>
-                           <th scope="col">Definitie</th>
-                        </tr>
-                        <tr>
-                           <td>
-                              
-                              <a class="link" href="#global_class_ToetsenEnBeoordelen_Beoordeling">Beoordeling</a>
-                              
-                              [ 0 .. * ]
-                              
-                              uitgevoerd door: beoordelaar
-                              
-                              Beoordelaar
-                              [ 0 .. 1 ]
                               </td>
                            <td></td>
                         </tr>
