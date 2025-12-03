@@ -34,13 +34,13 @@ In de onderstaande afbeelding is een (voorlopige) weergave te zien van IMWA en d
 
 ## MIM-conform
 
-De Aquo-informatiemodellen zijn opgezet volgens het **MIM - Metamodel Informatie Modellering** ([geostandaarden.nl](https://docs.geostandaarden.nl/mim/mim/)). MIM biedt een gemeenschappelijk vertrekpunt voor het maken van informatiemodellen. De afspraken reiken over de grenzen van bestuurslagen heen en zijn toepasbaar in uiteenlopende domeinen. Het volgen van MIM zorgt er ook voor dat er een gelaagdheid is aangebracht in de informatiemodellen
+De Aquo-informatiemodellen zijn opgezet volgens het **MIM - Metamodel Informatie Modellering** ([geostandaarden.nl](https://docs.geostandaarden.nl/mim/mim/)). MIM biedt een gemeenschappelijk uitgangspunt voor het maken van informatiemodellen. De afspraken reiken over de grenzen van bestuurslagen heen en zijn toepasbaar in uiteenlopende sectoren. De toepassing van MIM zorgt voor de onderstaande gelaagdheid in informatiemodellen:
 
-- **Conceptueel model**: Hierin wordt de informatie beschreven die van belang is binnen een bepaald werkveld. Het definieert het 'wat': welke concepten worden onderscheiden in een bepaald werkveld, wat betekenen deze, hoe verhouden deze zich tot elkaar en welke informatie over deze concepten belangrijk is. 
-- **Logisch model**: Dit is een afleiding van het conceptuele model, die is gemaakt voor een specifieke toepassing. Het defineert het 'hoe': binnen een logisch model wordt beschreven hoe de concepten die binnen het conceptueel model gedefineerd zijn, worden gebruikt binnen systemen en tussen systemen, bijvoorbeeld voor databases en in de uitwisseling daartussen. Het logisch model beschrijft niet de technische implementatie van het model in systemen, maar is een eerst aanzet daartoe.
-- **Fysiek model**: Hierin worden de structuur en eigenschappen van een daadwerkelijk technologie beschreven waarin de informatie wordt vastgelegd of uitgewisseld. Hte bschrijft bijvoorbeelde sturctuur van een database of uitwisselbericht.
+- Conceptueel model
+- Logisch model
+- Fysiek model
 
 Zie voor verdere toelichting:  
-[Metamodel Informatie Modellering](https://docs.geostandaarden.nl/mim/mim/)
+[Aquo Wiki](https://www.aquo.nl/index.php/Werken_met_informatiemodellen)
 
 De Aquo-informatiemodellen zijn gemodelleerd met behulp van **UML (Unified Modeling Language)** in **Enterprise Architect**.
