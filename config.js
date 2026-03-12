@@ -9,7 +9,7 @@ var respecConfig = {
     alt: "Aquo",
     width: 252,
     height: 130,
-    id: 'OMM-W'}]  ,
+    id: 'IMWA-O'}]  ,
   editors: [],
   authors: [
     {
@@ -18,9 +18,9 @@ var respecConfig = {
 	  note: "033 203 50 97",
       companyURL: "http://www.ihw.nl",
     }],
-  shortName: "OMM-W",
-  pubDomain: "OMM-Waterprofiel",
-  github: "https://github.com/Aquo-standaard/OMM-W",
+  shortName: "IMWA-O",
+  pubDomain: "IMWA Observaties",
+  github: "https://github.com/Aquo-standaard/IMWA-O",
   previousPublishDate: "2023-04-26",
   previousStatus: "AQ-WV",
   localBiblio: {},
