@@ -2,7 +2,7 @@ let respecConfig = {
   //useLogo: true,
   //useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Nederlands profiel Observaties, Metingen en Monsters voor de Watersector",
+  title: "IMWA Observaties",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus:   "WV",               // Werkversie
   //labelColor: "#ffcc00",
@@ -28,7 +28,7 @@ let respecConfig = {
   //licence: "cc0",                 // Public Domain Dedication
   license: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "OMM-W",
+  shortName: "IMWA-O",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   publishDate: "2025-06-26",
@@ -40,11 +40,11 @@ let respecConfig = {
   previousMaturity: "",
   
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/Aquo-standaard/OMM-W",
+  github: "https://github.com/Aquo-standaard/IMWA-O",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/Aquo-standaard/OMM-W/issues",
+  issueBase: "https://github.com/Aquo-standaard/IMWA-O/issues",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://github.com/Aquo-standaard/OMM-W",
+  edDraftURI: "https://github.com/Aquo-standaard/IMWA-O",
   //-- license: voor de geldende gebruiksvoorwaarden
 
   //-- Optionele parameters:
