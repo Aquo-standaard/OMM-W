@@ -1,4 +1,4 @@
-# Nederlands profiel Observaties, Metingen en Monsters voor de Watersector
+# Informatiemodel Water Observaties
 Het Nederlands profiel Observaties, Metingen en Monsters voor de Watersector, kortweg OMM-W, is onderdeel van het informatiemodel Water (IMWA) en is gebaseerd op NEN-EN-ISO 19156:2023  – Observations, Measurements and Samples (OMS).
 
 OMM-W beschrijft de structuur voor uitwisseling van gegevens over observaties/metingen en monsters (waaraan observaties/metingen zijn gedaan). Het OMM-W is een nadere specificatie van OMS. Daarnaast biedt OMM-W ook een aantal uitbreidingen die niet in OMS voorkomen, maar wel nodig zijn voor de watersector.
