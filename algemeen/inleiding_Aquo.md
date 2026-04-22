@@ -11,23 +11,24 @@ Het Informatiehuis Water ontzorgt waterbeheerders en beleidsmakers bij het uitwi
 
 ## Het Informatiemodel Water (IMWA)
 
-Het Informatiemodel Water (IMWA) vormt de basis van de Aquo-standaard. IMWA is voornamelijk een informatiemodel voor geo-informatie en is dan ook gebasseerd op de NEN3610:2022 Basismodel geo-informatie. IMWA biedt de basis voor de informatiestructuur die binnen de gegevensuitwisseling wordt gebruikt. Om dit te kunnen doen beschrijft IMWA de concepten waarover informatie uitgewisseld moet worden binnen het waterbeheer, onderlinge relaties tussen deze concepten en eigenschappen over deze concepten.
+Het Informatiemodel Water (IMWA) beschrijft de structuur die gebruikt wordt voor informatie-uitwisseling in het waterbeheer. IMWA is gebaseerd op de landelijke standaard NEN3610:2022, waarin staat hoe geografische gegevens uitgewisseld moeten worden. In het IMWA worden de concepten beschreven die binnen het waterbeheer worden gebruikt, de onderlinge relaties tussen de objecten en de eigenschappen van de objecten.
 
-IMWA is een omvangrijk informatiemodel. Om overzicht te houden wordt het onderverdeeld in 3 taakgebieden:
+IMWA is een omvangrijk model. Om overzicht te houden is het gemodelleerd in 3 taakgebieden:
 - [IMWA Watersysteem](https://aquo-standaard.github.io/IMWA-WS/#inleiding)
-- IMWA Waterketen (nog te ontwikkelen)
+- IMWA Waterketen (nog niet ontwikkeld)
 - IMWA Waterveiligheid
 
 Daarnaast zijn of worden een aantal onderdelen gemodelleerd ter ondersteuning van die taakgebieden:
+- [IMWA Basis](https://aquo-standaard.github.io/IMWA-basis/)
 - [IMWA Kunstwerken](https://aquo-standaard.github.io/IMWA-KW/)
 - [IMWA Observaties](https://aquo-standaard.github.io/IMWA-O/)
-- IMWA Normen
-- IMWA Maatregelen
+- IMWA Normen (pre-Aquo)
+- IMWA Doelen & maatregelen (nog niet ontwikkeld)
 
-Elk onderdeel heeft een connectie met het IMWA Basis.  IMWA Basis vormt de fundering van het IMWA. In onderstaande afbeelding zie je de samenhang tussen de verschillende onderdelen. [Catalogus IMWA Basis](https://aquo-standaard.github.io/IMWA-basis/#cat)
+De taakgebieden zijn onderling en met de ondersteunende onderdelen verbonden. Hierdoor kan er bijvoorbeeld iets worden gezegd over een specifiek kunstwerk (uit IMWA Kunstwerken) binnen de context van het watersysteem (IMWA Watersysteem). IMWA Basis is hiervoor het koppelvlak. Ook worden hierin de verbinding gelegd met het geo-object in de NEN3610.
 **Let op!** Dit is nog niet de definitieve versie van IMWA. De doorontwikkeling van het IMWA kan nog tot veranderingen leiden.
 
-In de onderstaande afbeelding is een (voorlopige) weergave te zien van IMWA en de samenhang tussen de verschillende onderdelen binnen IMWA.
+In onderstaande afbeelding zie je de samenhang tussen de verschillende IMWA-taakgebieden en ondersteunende onderdelen. De kleuren zijn alleen bedoeld om de taakgebieden en ondersteunende onderdelen visueel van elkaar te onderscheiden. 
 
 ![De context van IMWA](./algemeen/Aquomodellenoverzicht1.jpg)
 *Totaalplaat van IMWA in samenhang*
